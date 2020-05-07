@@ -1,0 +1,27 @@
+{
+  "google-fonts-plugin": {
+    "fonts": [
+      {
+        "family": "Saira Extra Condensed",
+        "variants": [
+          "500",
+          "700"
+        ]
+      },
+      {
+        "family": "Muli",
+        "variants": [
+          "400",
+          "400i",
+          "800",
+          "800i"
+        ]
+      }
+    ],
+    "formats": [
+      "woff2"
+    ],
+    "stats": false,
+    "filename": "fonts.css"
+  }
+}

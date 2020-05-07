@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/bundle.js"></script>
+</head>
+<body>
+
+  <div id="app">
+    <ul>
+      <!-- v-bind:class or :class -->
+      <li v-for="(item,index) in items" v-bind:class="item.isPurchased ? 'purchased' : 'not-purchased' ">
+         <span>{{ item.name }}</span>
+         <span v-if="item.isPurchased">Purchased!</span>
+         <button v-if="!item.isPurchased" v-on:click="buyItem(index)">Purchase</button>
+       </li>
+
+    </ul>
+
+    <!-- v-on:submit.prevent - prevent default -->
+    <form v-on:submit.prevent="saveNewItem">
+      <label for="new-item">Add a new item: </label>
+      <input id="new-item" type="text" v-model="newItem">
+      <input type="submit" name="" value="Save new item">
+    </form>
+
+  </div>
+</body>
+</html>

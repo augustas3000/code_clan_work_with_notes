@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about_us">About Us</a></li>
+        <li><a href="/new_link">New Link</a></li>
+      </ul>
+    </nav>
+
+    <%= yield %>
+
+  </body>
+</html>
+
+<!-- layout is the main view which will be rendered and injection in the body calls out any of the view as specified in the controller, this way the main boilerplate can re-used in layout.erb while different content can be injected into this-->

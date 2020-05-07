@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todos</title>
+  <script type="text/javascript" src="js/bundle.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="app">
+
+    <h1>{{title}}</h1>
+    <form v-on:submit.prevent="saveNewTodo">
+      <label for="todo-input">Add a ToDo:</label>
+      <input type="text" id="todo-input" v-model="newTodo.name" />
+      <label for="high">High</label>
+      <input type="radio" id="high" v-model="newTodo.priority" value="high">
+      <label for="low">Low</label>
+      <input type="radio" id="low" v-model="newTodo.priority" value="low">
+      <input type="submit" value="Save Item"/>
+    </form>
+    <ul>
+      <li v-for="todo in todos" :class="todo.priority" >
+        <span>{{ todo.name }}</span>
+      </li>
+    </ul>
+
+
+  </div>
+</body>
+</html>

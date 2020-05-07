@@ -1,0 +1,20 @@
+// Be sure to @import or define your custom variable values before including Bootstrap SCSS (bootstrap.scss), and include BootstrapVue SCSS (bootstrap-vue.scss) after that to ensure variables are set up correctly.
+
+
+@import "variables.scss";
+
+// Bootstrap SCSS
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Bootstrap Vue SCSS
+@import "../../../node_modules/bootstrap-vue/src/index";
+
+@import "mixins.scss";
+@import "global.scss";
+@import "nav.scss";
+@import "resume-item.scss";
+@import "bootstrap-overrides.scss";
+
+
+
+// or more straightforward sizing in CSS, the global box-sizing value is switched from content-box to border-box. This ensures padding does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.

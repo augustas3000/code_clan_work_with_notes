@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  <body>
+    <!-- in the main layout view, we get a template, where yield is a placehodler
+    for any input from other views as defined in controller file.
+    For example, we send a get request to root route and explain that the view here
+    will be home.erb
+    get '/' do
+      erb(:home)
+    end-->
+    <%= yield %>
+
+  </body>
+</html>

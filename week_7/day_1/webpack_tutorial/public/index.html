@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Webpack Intro App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+<!-- Script -->
+<!-- - app.js depends on models/person.js - app.js depends on models/random_adjective.js - models/person.js depends on helpers/text_format.js - models/text_format.js has no dependencies - helpers/random_adjective.js has no dependencies. It uses JavaScript's `Math` module, but as this in built-in to the language, it is not considered a dependency. -->
+
+  <script src="js/bundle.js"></script>
+
+
+
+</head>
+<body>
+  <form id="person-details-form">
+    <div class="form-item">
+      <label for="name-input">Full Name</label>
+      <input type="text" id="name-input" placeholder="Name..."/>
+    </div>
+    <div class="form-item">
+      <label for="favourite-colour-input">Favorite Colour</label>
+      <input type="text" id="favourite-colour-input" placeholder="Favourite colour..."/>
+    </div>
+    <div class="form-item">
+      <input type="submit", value="Submit">
+    </div>
+  </form>
+
+  <div class="response-display">
+    <p class="welcome text">Welcome!</p>
+    <p class="message text">Enter your details for a personalised message</p>
+  </div>
+
+<script type="text/javascript" src="js/bundle.js"></script></body>
+</html>

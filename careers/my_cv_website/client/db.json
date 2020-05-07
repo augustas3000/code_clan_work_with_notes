@@ -1,0 +1,187 @@
+{
+  "social": [
+    {
+      "name": "LinkedIn",
+      "url": "#",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "#",
+      "icon": "github"
+    },
+    {
+      "name": "Twitter",
+      "url": "#",
+      "icon": "twitter"
+    },
+    {
+      "name": "Facebook",
+      "url": "#",
+      "icon": "facebook"
+    }
+  ],
+  "navigation": [
+    {
+      "title": "About",
+      "url": "#about"
+    },
+    {
+      "title": "Experience",
+      "url": "#experience"
+    },
+    {
+      "title": "Education",
+      "url": "#education"
+    },
+    {
+      "title": "Skills",
+      "url": "#skills"
+    },
+    {
+      "title": "Interests",
+      "url": "#interests"
+    },
+    {
+      "title": "Awards",
+      "url": "#awards"
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Colorado Boulder",
+      "degree": "Bachelor of Science",
+      "program": "Computer Science - Web Development Track",
+      "dates": [
+        {
+          "start": "August 2006",
+          "end": "May 2010"
+        }
+      ],
+      "gpa": "3.23"
+    },
+    {
+      "school": "James Buchanan High School",
+      "degree": "Technology Magnet Program",
+      "program": "",
+      "dates": [
+        {
+          "start": "August 2002",
+          "end": "May 2006"
+        }
+      ],
+      "gpa": "3.56"
+    }
+  ],
+  "tools": [
+    {
+      "name": "HTML5",
+      "icon": "html5"
+    },
+    {
+      "name": "CSS3",
+      "icon": "css3-alt"
+    },
+    {
+      "name": "Javascript",
+      "icon": "js-square"
+    },
+    {
+      "name": "Angular",
+      "icon": "angular"
+    },
+    {
+      "name": "React",
+      "icon": "react"
+    },
+    {
+      "name": "NodeJS",
+      "icon": "node-js"
+    },
+    {
+      "name": "SASS",
+      "icon": "sass"
+    },
+    {
+      "name": "LESS",
+      "icon": "less"
+    },
+    {
+      "name": "WordPress",
+      "icon": "wordpress"
+    },
+    {
+      "name": "Gulp",
+      "icon": "gulp"
+    },
+    {
+      "name": "Grunt",
+      "icon": "grunt"
+    },
+    {
+      "name": "NPM",
+      "icon": "npm"
+    }
+  ],
+  "workflow": [
+    "Mobile-First, Responsive Design",
+    "Cross Browser Testing & Debugging",
+    "Cross Functional Teams",
+    "Agile Development & Scrum"
+  ],
+  "awards": [
+    "Google Analytics Certified Developer",
+    "Mobile Web Specialist - Google Certification",
+    "1st Place - University of Colorado Boulder - Emerging Tech Competition 2009",
+    "1st Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)",
+    "2nd Place - University of Colorado Boulder - Emerging Tech Competition 2008",
+    "1st Place - James Buchanan High School - Hackathon 2006",
+    "3rd Place - James Buchanan High School - Hackathon 2005"
+  ],
+  "experience": [
+    {
+      "position": "Senior Web Developer",
+      "company": "Intelitec Solutions",
+      "summary": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.",
+      "dates": [
+        {
+          "start": "March 2013",
+          "end": "Present"
+        }
+      ]
+    },
+    {
+      "position": "Web Developer",
+      "company": "Intelitec Solutions",
+      "summary": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.",
+      "dates": [
+        {
+          "start": "December 2011",
+          "end": "March 2013"
+        }
+      ]
+    },
+    {
+      "position": "Junior Web Designer",
+      "company": "Shout! Media Productions",
+      "summary": "Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.",
+      "dates": [
+        {
+          "start": "July 2010",
+          "end": "December 2011"
+        }
+      ]
+    },
+    {
+      "position": "Web Design Intern",
+      "company": "Shout! Media Productions",
+      "summary": "Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.",
+      "dates": [
+        {
+          "start": "September 2008",
+          "end": "June 2010"
+        }
+      ]
+    }
+  ]
+}

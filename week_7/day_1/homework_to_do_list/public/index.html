@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="./js/bundle.js"></script>
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="to_do_app">
+    <ul>
+      <li v-for="(item, index) in items" v-bind:class="item.priority === 'high' ? 'high-priority' : 'low-priority' ">
+          <span>{{ item.name }}</span>
+          <span>{{ item.priority }}</span>
+          <button v-on:click="changePriority(index)">Change Priority</button>
+
+<!--
+          <span>{{ item.name }}</span>
+          <span v-if="item.isPurchased">Purchased!</span>
+          <button v-if="!item.isPurchased" v-on:click="buyItem(index)">Purchase</button> -->
+
+
+      </li>
+
+      <!-- v-on:submit.prevent - prevent default -->
+      <!-- v-on: Attaches an event listener to the element. The event type is denoted by the argument. -->
+
+
+      <form v-on:submit.prevent="saveNewItem">
+        <label for="new-item">Add a new item: </label>
+        <input id="new-item" type="text" v-model="newItem">
+
+
+        <fieldset>
+<!--v-model: Create a two-way binding on a form input element. Data is synced on every input event by default.  -->
+
+          <span>Choose priority:</span>
+          <label for="high-priority">High:</label>
+          <input type="radio" name="priority" id="high-priority" value="high" v-model="priority"/>
+
+          <label for="low-priority">Low</label>
+          <input type="radio" name="priority" id="low-priority" value="low" v-model="priority"/>
+        </fieldset>
+
+        <input type="submit" name="" value="Save new item">
+
+
+      </form>
+
+
+    </ul>
+  </div>
+
+</body>
+</html>
